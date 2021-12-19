@@ -1,0 +1,4 @@
+shinyCorPlot(gene1    = rownames(deLNC), 
+             gene2    = rownames(dePC), 
+             rna.expr = rnaExpr, 
+             metadata = metaMatrix.RNA)
